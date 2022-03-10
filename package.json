@@ -1,0 +1,51 @@
+{
+  "name": "Assaan_Solutions",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/art": "^1.2.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-animatable": "^1.3.3",
+    "react-native-app-intro-slider": "^4.0.4",
+    "react-native-image-slider-box": "^1.1.14",
+    "react-native-indicator": "^1.2.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-maps": "^0.30.1",
+    "react-native-otp-input-view": "^1.0.2",
+    "react-native-otp-inputs": "^7.1.1",
+    "react-native-otp-textinput": "^0.0.8",
+    "react-native-platform-searchbar": "^1.2.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-searchbar": "^1.16.0",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-vector-icons": "^9.0.0",
+    "react-ratings-declarative": "^3.4.1",
+    "react-star-ratings": "^2.3.0",
+    "rn-onboarding": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/runtime": "7.16.3",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
